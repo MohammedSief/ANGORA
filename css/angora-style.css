@@ -1,0 +1,295 @@
+    .slogan h2 {
+        color: white;
+        font-size: 500%;
+        font-weight: bold;
+    }
+    
+    .nav-bar {
+        width: 59%;
+    }
+    
+    .front-page {
+        background-image: url(slideshow-1.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        animation-name: slideshow;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        overflow: hidden;
+    }
+    
+    .nav-link,
+    .nav-item {
+        color: white !important;
+        font-weight: bold;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none !important;
+    }
+    
+    a:hover {
+        color: red !important;
+    }
+    
+    @keyframes slideshow {
+        0% {
+            background-image: url(slideshow-1.jpg);
+        }
+        20% {
+            background-image: url(slideshow-1.jpg);
+        }
+        30% {
+            background-image: url(slideshow-2.jpg);
+        }
+        50% {
+            background-image: url(slideshow-2.jpg);
+        }
+        60% {
+            background-image: url(slideshow-3.jpg);
+        }
+        80% {
+            background-image: url(slideshow-3.jpg);
+        }
+    }
+    
+    .slogan1 {
+        position: absolute;
+        top: 50%;
+        left: 150%;
+        animation-name: slogan1;
+        animation-duration: 2s;
+        animation-delay: 0s;
+    }
+    
+    .slogan2 {
+        position: absolute;
+        top: 50%;
+        left: 150%;
+        animation-name: slogan2;
+        animation-duration: 2s;
+        animation-delay: 2s;
+    }
+    
+    .slogan3 {
+        position: absolute;
+        top: 50%;
+        left: 150%;
+        animation-name: slogan3;
+        animation-duration: 2s;
+        animation-delay: 5s;
+    }
+    
+    @keyframes slogan1 {
+        from {
+            left: 150%
+        }
+        to {
+            left: 50%;
+        }
+    }
+    
+    @keyframes slogan2 {
+        from {
+            left: 150%
+        }
+        to {
+            left: 50%;
+        }
+    }
+    
+    @keyframes slogan3 {
+        from {
+            left: 150%
+        }
+        to {
+            left: 50%;
+        }
+    }
+    
+    .control .carousel-control-next {
+        left: 1%;
+        top: 50%;
+        bottom: 40%;
+        width: 40px;
+    }
+    
+    .control .carousel-control-prev {
+        top: 40%;
+        left: 1%;
+        bottom: 50%;
+        width: 40px;
+    }
+    /*section about*/
+    
+    .kalam {
+        width: 60%;
+    }
+    
+    .line-width {
+        width: 5%;
+        transition: width 1s;
+    }
+    
+    .kalam:hover .line-width {
+        width: 15%;
+    }
+    
+    .progress {
+        width: 90%;
+    }
+    
+    .biggg {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .smalll {
+        font-size: 70px;
+        font-weight: bold;
+        position: absolute;
+        top: -20px;
+        color: rgba(128, 128, 128, 0.1);
+    }
+    /*section our team*/
+    
+    .card img {
+        transition: transform 1s;
+    }
+    
+    .card-image {
+        overflow: hidden;
+    }
+    
+    .overlayer {
+        background-color: rgba(233, 48, 48, 0.5);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        transition: top 1s;
+    }
+    
+    .card:hover img {
+        transform: scale(1.1, 1.1);
+    }
+    
+    .card:hover .overlayer {
+        top: 0px;
+    }
+    
+    #name {
+        font-weight: bold;
+    }
+    
+    .question p {
+        font-size: 40px;
+    }
+    
+    #contactus {
+        font-size: 14px;
+    }
+    /* section our services */
+    
+    .services {
+        background-color: #fafafa;
+    }
+    
+    .serv-fas .fas {
+        color: red;
+    }
+    
+    .serv-fas .far {
+        color: red;
+    }
+    
+    .serv:hover h4 {
+        color: red;
+    }
+    /* reviews */
+    
+    .carousel-caption {
+        color: black;
+    }
+    
+    .control2 .carousel-control-next {
+        right: 1%;
+        top: 40%;
+        bottom: 40%;
+        width: 40px;
+    }
+    
+    .control2 .carousel-control-prev {
+        top: 40%;
+        left: 1%;
+        bottom: 40%;
+        width: 40px;
+    }
+    
+    .rev-img img {
+        width: 25%;
+    }
+    
+    .serv:hover h5 {
+        color: red;
+    }
+    
+    .reviews {
+        background-color: #f08a8a;
+    }
+    
+    .contact-us {
+        background-color: #fafafa;
+    }
+    /*links section*/
+    
+    .linksss {
+        background-color: rgb(56, 56, 56);
+        background-image: url(dotted-map.png);
+        background-size: contain;
+    }
+    
+    .linksss h5 {
+        font-weight: bold;
+        color: white;
+    }
+    
+    .linksss p {
+        color: #c0c0c0;
+    }
+    
+    .btn-outline-secondary:hover {
+        color: #ff5858;
+        background-color: transparent;
+        border-color: #ff5858;
+    }
+    /* footer */
+    
+    footer {
+        background-color: rgb(44, 44, 44);
+    }
+    
+    .fa-chevron-up {
+        background-color: rgba(212, 92, 92, 0.5) !important;
+        font-size: 24px;
+        position: absolute;
+        top: -30px;
+        right: 48%;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    a:hover .fas {
+        color: white;
+        background-color: rgb(231, 26, 26) !important;
+    }
+    
+    .foo-copy:hover {
+        color: red;
+    }
